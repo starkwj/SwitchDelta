@@ -1,0 +1,26 @@
+ucli
+pm
+show
+exit
+exit
+
+        ********************************************
+        *      WARNING: Authorised Access Only     *
+        ********************************************
+    
+bfshell> ucli
+Cannot read termcap database;
+using dumb terminal settings.
+bf-sde.pm> pm
+error: unknown command 'pm'
+bf-sde.pm> show
+-----+----+---+----+------+----+---+---+---+--------+----------------+----------------+-
+PORT |MAC |D_P|P/PT|SPEED |FEC |RDY|ADM|OPR|LPBK    |FRAMES RX       |FRAMES TX       |E
+-----+----+---+----+------+----+---+---+---+--------+----------------+----------------+-
+6/0  |18/0|172|2/44| 100G | RS |YES|ENB|UP |  NONE  |               1|               0| 
+7/0  |17/0|180|2/52| 100G | RS |YES|ENB|UP |  NONE  |               2|               0| 
+8/0  |16/0|188|2/60| 100G | RS |YES|ENB|UP |  NONE  |               2|               0| 
+31/0 |24/0|128|2/ 0| 100G | RS |YES|ENB|UP |  NONE  |               2|               0| 
+32/0 |25/0|136|2/ 8| 100G | RS |YES|ENB|UP |  NONE  |               2|               0| 
+bf-sde.pm> exit
+bfshell> exit

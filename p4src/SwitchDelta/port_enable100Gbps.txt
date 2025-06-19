@@ -1,0 +1,8 @@
+ucli
+pm
+port-add 8/- 100G RS
+port-add 31/- 100G RS
+port-add 32/- 100G RS
+port-enb -/-
+exit
+exit
